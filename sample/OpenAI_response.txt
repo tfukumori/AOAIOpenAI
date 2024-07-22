@@ -1,0 +1,45 @@
+HTTP/1.1 200 OK
+Date: Mon, 22 Jul 2024 00:00:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+openai-organization: user-OOOOOOOO
+openai-processing-ms: 415
+openai-version: 2020-10-01
+strict-transport-security: max-age=15552000; includeSubDomains; preload
+x-ratelimit-limit-requests: 500
+x-ratelimit-limit-tokens: 30000
+x-ratelimit-remaining-requests: 499
+x-ratelimit-remaining-tokens: 29179
+x-ratelimit-reset-requests: 120ms
+x-ratelimit-reset-tokens: 1.642s
+x-request-id: req_OOOOOOOO
+CF-Cache-Status: DYNAMIC
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: OOOOOOOO-KIX
+alt-svc: clear
+Proxy-Connection: close
+
+{
+  "id": "chatcmpl-OOOOOOOO",
+  "object": "chat.completion",
+  "created": 1721617436,
+  "model": "gpt-4o-2024-05-13",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "こんにちは！今日はどんなお手伝いをしましょうか？"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 23,
+    "completion_tokens": 14,
+    "total_tokens": 37
+  },
+  "system_fingerprint": "fp_OOOOOOOO"
+}
